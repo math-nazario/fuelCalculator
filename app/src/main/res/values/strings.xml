@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FuelMate</string>
+
+    <string name="message_empty_field">Fill in the field to continue</string>
+    <string name="message_zero_field">Value must be greater than 0.0</string>
+
+    <string name="welcome_title">Make it easier to control your fuel consumption and increase your savings.</string>
+    <string name="welcome_start">Start</string>
+
+    <string name="price_title">Fuel price</string>
+    <string name="price_example">6.09</string>
+    <string name="price_step">Step 1 of 3</string>
+    <string name="price_next">Next</string>
+
+    <string name="consumption_title">Vehicle consumption</string>
+    <string name="consumption_example">15.7</string>
+    <string name="consumption_step">Step 2 of 3</string>
+    <string name="consumption_next">Next</string>
+
+    <string name="distance_title">Distance to destination</string>
+    <string name="distance_example">110</string>
+    <string name="distance_step">Step 3 of 3</string>
+    <string name="distance_calculate">Calculate</string>
+
+    <string name="result_title">Summary</string>
+    <string name="result_total_expense">Your expense will be:</string>
+    <string name="result_review_data">Review of entered data</string>
+    <string name="result_total_price">Fuel price</string>
+    <string name="result_total_consumption">Vehicle consumption</string>
+    <string name="result_total_distance">Distance to destination</string>
+    <string name="result_recalculate">Recalculate</string>
+
+</resources>

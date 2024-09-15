@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FuelMate</string>
+
+    <string name="message_empty_field">Preencha o campo para prosseguir</string>
+    <string name="message_zero_field">O valor deve ser maior que 0.0</string>
+
+    <string name="welcome_title">Facilite o controle do seu consumo de combustível e aumente sua economia.</string>
+    <string name="welcome_start">Iniciar</string>
+
+    <string name="price_title">Preço do combustível</string>
+    <string name="price_example">6.09</string>
+    <string name="price_step">Passo 1 de 3</string>
+    <string name="price_next">Próximo</string>
+
+    <string name="consumption_title">Consumo do veículo</string>
+    <string name="consumption_example">15.7</string>
+    <string name="consumption_step">Passo 2 de 3</string>
+    <string name="consumption_next">Próximo</string>
+
+    <string name="distance_title">Distância até o destino</string>
+    <string name="distance_example">110</string>
+    <string name="distance_step">Passo 3 de 3</string>
+    <string name="distance_calculate">Calcular</string>
+
+    <string name="result_title">Resumo</string>
+    <string name="result_total_expense">Seu gasto será de:</string>
+    <string name="result_review_data">Revisão dos dados inseridos</string>
+    <string name="result_total_price">Preço do combustível</string>
+    <string name="result_total_consumption">Consumo do veículo</string>
+    <string name="result_total_distance">Distância até o destino</string>
+    <string name="result_recalculate">Calcular novamente</string>
+
+</resources>
