@@ -1,10 +1,16 @@
 # Calculadora de Combustível
-Este é um aplicativo Android nativo desenvolvido em Kotlin. O principal objetivo do projeto é simplificar o planejamento dos gastos com combustível durante suas viagens.
+## 📖 Descrição
+A **Calculadora de Combustível** é um aplicativo Android nativo desenvolvido em Kotlin, que tem como principal objetivo facilitar o planejamento dos gastos com combustível durante suas viagens. O aplicativo permite que os usuários insiram dados relevantes, como distância, consumo do veículo e preço do combustível, para calcular os custos totais, ajudando na gestão eficiente de despesas.
 
-## :camera_flash: Screenshots
+## 📸 Screenshots
 <img src="https://github.com/user-attachments/assets/cf600102-23b6-4d1d-8ff2-33afaeb71c26" width=260/> <img src="https://github.com/user-attachments/assets/acefaf6e-a42a-4e3e-9611-c7d6870b5596" width=260/> <img src="https://github.com/user-attachments/assets/9b3c1334-7f82-4330-919e-ffc581ac226e" width=260/> <img src="https://github.com/user-attachments/assets/e317b792-2a29-446d-b16a-412198467eee" width=260/> <img src="https://github.com/user-attachments/assets/e34f02e1-cd8a-4e14-9fce-863dc2288234" width=260/>
 
-## Tecnologias
+## ✅ Funcionalidades 
+- **Cálculo de Gastos:** Insira distância, consumo do veículo e preço do combustível para obter uma estimativa dos gastos.
+- **Interface Intuitiva:** Design amigável que facilita o uso.
+- **Resultados Visuais:** Resultado apresentado em uma tela dedicada, facilitando a compreensão.
+
+## 🛠️ Tecnologias Utilizadas 
 - Activity
 - Intent
 - Snackbar
@@ -12,8 +18,14 @@ Este é um aplicativo Android nativo desenvolvido em Kotlin. O principal objetiv
   - ConstraintLayout
   - LinearLayout
   - TableLayout
+- Views
+	- Button
+	- EditText
+	- ImageView
+ 	- TableRow
+	- TextView
 	
-## License
+## 📜 Licença
 ```
 The MIT License (MIT)
 
