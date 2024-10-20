@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.fuelcalculator.databinding.ActivityResultBinding
+import java.text.NumberFormat
+import java.util.Locale
 
 class ResultActivity : AppCompatActivity() {
     private lateinit var binding: ActivityResultBinding
@@ -27,15 +29,23 @@ class ResultActivity : AppCompatActivity() {
         val totalDistance = intent.getDoubleExtra("totalDistance", 0.0)
         val total = intent.getDoubleExtra("total", 0.0)
 
-        binding.tvPrice.text = "R$ ${"%.2f".format(totalPrice)}"
+        val formatedPrice = formatCurrency(totalPrice)
+        val formatedExpense = formatCurrency(total)
+        binding.tvPrice.text = "R$ $formatedPrice"
         binding.tvConsumption.text = "$totalConsumption KM/L"
         binding.tvDistance.text = "$totalDistance KM"
-        binding.tvTotalExpense.text = "R$ ${"%.2f".format(total)}"
+        binding.tvTotalExpense.text = "R$ $formatedExpense"
 
         binding.btnRecalculate.setOnClickListener {
             val intent = Intent(this, PriceActivity::class.java)
             startActivity(intent)
             finish()
         }
+    }
+
+    private fun formatCurrency(value: Double): String {
+        val numberFormat = NumberFormat.getInstance(Locale("pt", "BR"))
+        numberFormat.maximumFractionDigits = 2
+        return numberFormat.format(value)
     }
 }

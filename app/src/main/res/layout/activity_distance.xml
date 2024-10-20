@@ -24,7 +24,6 @@
         style="@style/TextViewLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
         android:text="@string/distance_title"
         app:layout_constraintStart_toStartOf="@+id/edtDistance"
         app:layout_constraintTop_toBottomOf="@+id/imgForm" />
@@ -34,12 +33,10 @@
         style="@style/EditText"
         android:layout_width="320dp"
         android:layout_height="48dp"
-        android:layout_marginTop="8dp"
         android:autofillHints="Weight"
         android:background="@drawable/textbox_rounded"
         android:drawableStart="@drawable/ic_route"
         android:hint="@string/distance_example"
-        android:inputType="numberDecimal"
         android:maxLength="6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +44,7 @@
 
     <TextView
         android:id="@+id/tvStep"
-        style="@style/TextViewLabel"
+        style="@style/TextViewLabelStep"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"

@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">FuelMate</string>
+    <string name="app_name">Fuel Calculator</string>
 
     <string name="message_empty_field">Fill in the field to continue</string>
-    <string name="message_zero_field">Value must be greater than 0.0</string>
+    <string name="message_zero_field">Value must be greater than 0</string>
 
     <string name="welcome_title">Make it easier to control your fuel consumption and increase your savings.</string>
     <string name="welcome_start">Start</string>
@@ -29,5 +29,4 @@
     <string name="result_total_consumption">Vehicle consumption</string>
     <string name="result_total_distance">Distance to destination</string>
     <string name="result_recalculate">Recalculate</string>
-
 </resources>

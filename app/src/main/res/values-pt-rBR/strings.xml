@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FuelMate</string>
+    <string name="app_name">Calculadora de Combustível</string>
 
     <string name="message_empty_field">Preencha o campo para prosseguir</string>
-    <string name="message_zero_field">O valor deve ser maior que 0.0</string>
+    <string name="message_zero_field">O valor deve ser maior que 0</string>
 
     <string name="welcome_title">Facilite o controle do seu consumo de combustível e aumente sua economia.</string>
     <string name="welcome_start">Iniciar</string>
@@ -30,5 +30,4 @@
     <string name="result_total_consumption">Consumo do veículo</string>
     <string name="result_total_distance">Distância até o destino</string>
     <string name="result_recalculate">Calcular novamente</string>
-
 </resources>
