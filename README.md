@@ -1,31 +1,26 @@
 # Calculadora de Combustível
+
 ## 📖 Descrição
-A **Calculadora de Combustível** é um aplicativo Android nativo desenvolvido em Kotlin, que tem como principal objetivo facilitar o planejamento dos gastos com combustível durante suas viagens. O aplicativo permite que os usuários insiram dados relevantes, como distância, consumo do veículo e preço do combustível, para calcular os custos totais, ajudando na gestão eficiente de despesas.
+A **Calculadora de Combustível** é um aplicativo Android nativo desenvolvido em Kotlin, que tem como principal objetivo facilitar o planejamento dos gastos com combustível durante suas viagens. O aplicativo permite que os usuários insiram dados relevantes, como distância, consumo do veículo e preço do combustível, para calcular os custos totais, auxiliando na gestão eficiente de despesas.
 
-## 📸 Screenshots
-<img src="https://github.com/user-attachments/assets/cf600102-23b6-4d1d-8ff2-33afaeb71c26" width=260/> <img src="https://github.com/user-attachments/assets/acefaf6e-a42a-4e3e-9611-c7d6870b5596" width=260/> <img src="https://github.com/user-attachments/assets/9b3c1334-7f82-4330-919e-ffc581ac226e" width=260/> <img src="https://github.com/user-attachments/assets/e317b792-2a29-446d-b16a-412198467eee" width=260/> <img src="https://github.com/user-attachments/assets/e34f02e1-cd8a-4e14-9fce-863dc2288234" width=260/>
+## 📱 Screenshots
+<img src="https://github.com/user-attachments/assets/1574d626-5442-4f4c-834b-36cae5b0332e" width=260/> <img src="https://github.com/user-attachments/assets/e2a9208a-5240-4c9e-9a48-b5254b538c52" width=260/> <img src="https://github.com/user-attachments/assets/abce3550-520b-4416-a55a-a8be7dd1bbba" width=260/> <img src="https://github.com/user-attachments/assets/ba99a198-5cb1-470b-a002-1ee70588f544" width=260/> <img src="https://github.com/user-attachments/assets/cb0ce50d-793c-422e-9c64-9b80c491e2ce" width=260/>
 
-## ✅ Funcionalidades 
+## 🎯 Funcionalidades 
 - **Cálculo de Gastos:** Insira distância, consumo do veículo e preço do combustível para obter uma estimativa dos gastos.
-- **Interface Intuitiva:** Design amigável que facilita o uso.
-- **Resultados Visuais:** Resultado apresentado em uma tela dedicada, facilitando a compreensão.
+- **Interface Intuitiva:** Design amigável que proporciona uma navegação simples e direta.
+- **Resultados Visuais:** Exibição clara e objetiva dos resultados em uma tela dedicada.
+
+## 🌐 Suporte a Idiomas
+- Português 🇧🇷
+- Inglês 🇺🇸
 
 ## 🛠️ Tecnologias Utilizadas 
-- Activity
-- Intent
-- Snackbar
-- ViewGroups
-  - ConstraintLayout
-  - LinearLayout
-  - TableLayout
-- Views
-	- Button
-	- EditText
-	- ImageView
- 	- TableRow
-	- TextView
+- **Linguagem:** Kotlin
+- **Componentes:** Activity, Intent, Snackbar, ViewGroups (ConstraintLayout, LinearLayout, TableLayout)
+- **UI Elements:** Button, EditText, ImageView, TableRow, TextView
 	
-## 📜 Licença
+## 📄 Licença
 ```
 The MIT License (MIT)
 
