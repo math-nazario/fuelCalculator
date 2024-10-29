@@ -4,7 +4,7 @@
 A **Calculadora de Combustível** é um aplicativo Android nativo desenvolvido em Kotlin, que tem como principal objetivo facilitar o planejamento dos gastos com combustível durante suas viagens. O aplicativo permite que os usuários insiram dados relevantes, como distância, consumo do veículo e preço do combustível, para calcular os custos totais, auxiliando na gestão eficiente de despesas.
 
 ## 📱 Screenshots
-<img src="https://github.com/user-attachments/assets/1574d626-5442-4f4c-834b-36cae5b0332e" width=260/> <img src="https://github.com/user-attachments/assets/e2a9208a-5240-4c9e-9a48-b5254b538c52" width=260/> <img src="https://github.com/user-attachments/assets/abce3550-520b-4416-a55a-a8be7dd1bbba" width=260/> <img src="https://github.com/user-attachments/assets/ba99a198-5cb1-470b-a002-1ee70588f544" width=260/> <img src="https://github.com/user-attachments/assets/cb0ce50d-793c-422e-9c64-9b80c491e2ce" width=260/>
+<img src="https://github.com/user-attachments/assets/1574d626-5442-4f4c-834b-36cae5b0332e" width=260/>  <img src="https://github.com/user-attachments/assets/ba99a198-5cb1-470b-a002-1ee70588f544" width=260/> <img src="https://github.com/user-attachments/assets/cb0ce50d-793c-422e-9c64-9b80c491e2ce" width=260/>
 
 ## 🎯 Funcionalidades 
 - **Cálculo de Gastos:** Insira distância, consumo do veículo e preço do combustível para obter uma estimativa dos gastos.
